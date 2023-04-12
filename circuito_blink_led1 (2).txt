@@ -1,0 +1,18 @@
+// C++ code
+//
+
+int ledpin = 8;
+
+void setup()
+{
+  pinMode(ledpin, OUTPUT);
+ 
+}
+
+void loop()
+{
+  digitalWrite(ledpin, HIGH);
+  delay(250); // Wait for 1000 millisecond(s)
+  digitalWrite(ledpin, LOW);
+  delay(250); // Wait for 1000 millisecond(s)
+}
